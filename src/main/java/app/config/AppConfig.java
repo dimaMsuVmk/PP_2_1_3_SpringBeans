@@ -9,8 +9,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "app")
 public class AppConfig {
-    @Bean("buldog")
-    public Animal geyAnimal() {
-        return new Dog();
-    }
 }
